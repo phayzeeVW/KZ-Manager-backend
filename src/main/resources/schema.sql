@@ -2,7 +2,7 @@
 CREATE TABLE IF NOT EXISTS Authors
 (
     author_id   INT AUTO_INCREMENT PRIMARY KEY,
-    author_name VARCHAR
+    author_name VARCHAR UNIQUE
 );
 
 -- Define Sprites Table
